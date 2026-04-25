@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eats xmlns="https://example.org/eats" version="0.1">
+  <entities>
+    <entity xml:id="person-margaret-hall">
+      <type>person</type>
+      <name preferred="true">Margaret Hall</name>
+      <name>Mrs. Hall</name>
+    </entity>
+
+    <entity xml:id="person-richard-bentley">
+      <type>person</type>
+      <name preferred="true">Richard Bentley</name>
+      <name>R. Bentley</name>
+    </entity>
+
+    <entity xml:id="place-york-guildhall">
+      <type>place</type>
+      <name preferred="true">Guildhall, York</name>
+    </entity>
+
+    <entity xml:id="place-ouse-bridge">
+      <type>place</type>
+      <name preferred="true">Ouse Bridge, York</name>
+    </entity>
+  </entities>
+</eats>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sample-edition">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sample Civic Performance Records</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Demo data for a REED-style digital edition starter.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Constructed example records.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <listEvent>
+        <event xml:id="ev-1598-06-20" when="1598-06-20" corresp="#place-york-guildhall">
+          <head>Payment for pageant costumes</head>
+          <p>
+            Item, paid to <name type="person" ref="#person-margaret-hall">Margaret Hall</name>
+            for mending garments for players before midsummer.
+          </p>
+        </event>
+
+        <event xml:id="ev-1601-04-12" when="1601-04-12" corresp="#place-ouse-bridge">
+          <head>Order concerning procession route</head>
+          <p>
+            The council directs <name type="person" ref="#person-richard-bentley">Richard Bentley</name>
+            to supervise banners along the bridge and market approach.
+          </p>
+        </event>
+      </listEvent>
+    </body>
+  </text>
+</TEI>
