@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>REED-style Digital Edition Starter</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>REED-style Digital Edition Starter</h1>
+      <p>
+        TEI + EATS-inspired authority data, transformed with XSLT for GitHub Pages.
+      </p>
+    </header>
+
+    <main>
+      <section class="controls" aria-label="Filters">
+        <h2>Filters</h2>
+        <label>
+          Person
+          <select id="personFilter">
+            <option value="">All people</option>
+          </select>
+        </label>
+
+        <label>
+          Place
+          <select id="placeFilter">
+            <option value="">All places</option>
+          </select>
+        </label>
+
+        <label>
+          Date (substring)
+          <input id="dateFilter" type="text" placeholder="e.g. 1598" />
+        </label>
+      </section>
+
+      <section>
+        <h2>Records</h2>
+        <div id="recordsRoot" aria-live="polite">Loading records…</div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Source data: <code>docs/data/records.xml</code> + <code>docs/data/eats.xml</code>
+      </p>
+    </footer>
+
+    <script src="assets/app.js" defer></script>
+  </body>
+</html>
